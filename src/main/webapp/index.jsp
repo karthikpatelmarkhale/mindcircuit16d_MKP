@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html>
-<body style="background-color:ORANGE;">
+<body style="background-color:lightgray;">
 
 <h1>THIS IS KARTHIK PATEL POTHANGAL </h1>
-<p>DEVOPS ENGINEER IN TCS</p>
+<p>DEVOPS ENGINEER IN  WIPRO</p>
 
 </body>
 </html>
