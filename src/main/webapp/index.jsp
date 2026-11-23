@@ -2,8 +2,8 @@
 <html>
 <body style="background-color:ORANGE;">
 
-<h1>THIS IS KARTHIK PATEL </h1>
-<p>DEVOPS ENGINEER /p>
+<h1> KARTHIK PATEL </h1>
+</h1>  DEVOPS ENGINEER   </h1>
 
 </body>
 </html>
