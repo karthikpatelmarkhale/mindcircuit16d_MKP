@@ -4,7 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.example</groupId>
-    <artifactId>MKP</artifactId>
+    <artifactId>MKP PATEL</artifactId>
     <version>1.0.0</version>
     <packaging>war</packaging>
 
@@ -17,12 +17,12 @@
 	<distributionManagement>
 		 <snapshotRepository>
 		    <id>NexusRepo</id>
-		    <url>http://3.87.11.46:8081/repository/MKP-REPO-RELEASE/</url>
+		    <url>http://54.167.224.229:8081/repository/MKP-REPO-RELEASE/</url>
 		 </snapshotRepository>
 		
 		<repository>
 		    <id>NexusRepo</id>
-		    <url>http://3.87.11.46:8081/repository/MKP-REPO-SNAPSHOT/</url>
+		    <url>http://54.167.224.229:8081/repository/MKP-REPO-SNAPSHOT/</url>
 		</repository>
   	</distributionManagement>
     
