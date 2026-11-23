@@ -15,15 +15,15 @@
 	</properties>
 
 	<distributionManagement>
-		 <snapshotRepository>
+		 <Repository>
 		    <id>NexusRepo</id>
 		    <url>http://54.167.224.229:8081/repository/MKP-REPO-RELEASE/</url>
-		 </snapshotRepository>
+		 </Repository>
 		
-		<repository>
+		<Repository>
 		    <id>NexusRepo</id>
 		    <url>http://54.167.224.229:8081/repository/MKP-REPO-SNAPSHOT/</url>
-		</repository>
+		</Repository>
   	</distributionManagement>
     
     <build>
