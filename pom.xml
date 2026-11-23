@@ -14,17 +14,21 @@
 
 	</properties>
 
-	<distributionManagement>
-		 <Repository>
-		    <id>NexusRepo</id>
-		    <url>http://54.167.224.229:8081/repository/MKP-REPO-RELEASE/</url>
-		 </Repository>
-		
-		<Repository>
-		    <id>NexusRepo</id>
-		    <url>http://54.167.224.229:8081/repository/MKP-REPO-SNAPSHOT/</url>
-		</Repository>
-  	</distributionManagement>
+	
+<distributionManagement>
+
+    <repository>
+        <id>NexusRepo</id>
+        <url>http://54.167.224.229:8081/repository/MKP-REPO-RELEASE/</url>
+    </repository>
+
+    <snapshotRepository>
+        <id>NexusRepo</id>
+        <url>http://54.167.224.229:8081/repository/MKP-REPO-SNAPSHOT/</url>
+    </snapshotRepository>
+
+</distributionManagement>
+
     
     <build>
         <plugins>
