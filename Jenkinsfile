@@ -1,6 +1,9 @@
 pipeline {
 
     agent any
+	tools{
+		maven 'maven 3.10.15'
+	}
     stages {
 	
         stage('Checkout') {
@@ -22,7 +25,7 @@ pipeline {
         stage('Deploy to Tomcat') {
             steps {
                 echo 'This stage deploys .war to tomcat webserver'
-                deploy adapters: [tomcat9(alternativeDeploymentContext: '', credentialsId: 'tomcat', path: '', url: 'http://75.101.187.208:8081/')], contextPath: 'RCB VK', war: '**/*.war'
+                deploy adapters: [tomcat9(alternativeDeploymentContext: '', credentialsId: 'tomcat', path: '', url: 'http://54.224.77.5:8080/')], contextPath: 'MKP VK', war: '**/*.war'
             }
         }		
 		
